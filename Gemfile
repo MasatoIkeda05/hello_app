@@ -9,7 +9,7 @@ gem 'turbolinks',           '2.3.0'
 gem 'jbuilder',             '2.2.3'
 gem 'sdoc',                 '0.4.0', group: :doc
 gem 'loofah',               '2.4.0'
-gem 'nokogiri',             '1.10.4'
+
 
 
 group :development, :test do

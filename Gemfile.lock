@@ -168,7 +168,6 @@ DEPENDENCIES
   jbuilder (= 2.2.3)
   jquery-rails (= 4.0.3)
   loofah (= 2.4.0)
-  nokogiri (= 1.10.4)
   pg (= 0.17.1)
   rails (= 4.2.11.3)
   rails_12factor (= 0.0.2)
