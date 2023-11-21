@@ -1,0 +1,16 @@
+current directory: /Users/i.masato/rails-tutorial/workspace/hello_app/ruby/2.4.0/gems/binding_of_caller-0.7.3.pre1/ext/binding_of_caller
+/Users/i.masato/.rbenv/versions/2.4.7/bin/ruby -I /Users/i.masato/.rbenv/versions/2.4.7/lib/ruby/site_ruby/2.4.0 extconf.rb
+
+current directory: /Users/i.masato/rails-tutorial/workspace/hello_app/ruby/2.4.0/gems/binding_of_caller-0.7.3.pre1/ext/binding_of_caller
+make DESTDIR\= sitearchdir\=./.gem.20231117-41028-1lr32ct sitelibdir\=./.gem.20231117-41028-1lr32ct clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/i.masato/rails-tutorial/workspace/hello_app/ruby/2.4.0/gems/binding_of_caller-0.7.3.pre1/ext/binding_of_caller
+make DESTDIR\= sitearchdir\=./.gem.20231117-41028-1lr32ct sitelibdir\=./.gem.20231117-41028-1lr32ct
+echo "Nada."
+Nada.
+
+current directory: /Users/i.masato/rails-tutorial/workspace/hello_app/ruby/2.4.0/gems/binding_of_caller-0.7.3.pre1/ext/binding_of_caller
+make DESTDIR\= sitearchdir\=./.gem.20231117-41028-1lr32ct sitelibdir\=./.gem.20231117-41028-1lr32ct install
+echo "Nada."
+Nada.

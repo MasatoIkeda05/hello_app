@@ -1,0 +1,13 @@
+current directory: /Users/i.masato/rails-tutorial/workspace/hello_app/ruby/2.4.0/gems/json-1.8.6/ext/json
+/Users/i.masato/.rbenv/versions/2.4.7/bin/ruby -I /Users/i.masato/.rbenv/versions/2.4.7/lib/ruby/site_ruby/2.4.0 extconf.rb
+creating Makefile
+
+current directory: /Users/i.masato/rails-tutorial/workspace/hello_app/ruby/2.4.0/gems/json-1.8.6/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20231117-41028-l4v4bs sitelibdir\=./.gem.20231117-41028-l4v4bs clean
+
+current directory: /Users/i.masato/rails-tutorial/workspace/hello_app/ruby/2.4.0/gems/json-1.8.6/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20231117-41028-l4v4bs sitelibdir\=./.gem.20231117-41028-l4v4bs
+make: Nothing to be done for `all'.
+
+current directory: /Users/i.masato/rails-tutorial/workspace/hello_app/ruby/2.4.0/gems/json-1.8.6/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20231117-41028-l4v4bs sitelibdir\=./.gem.20231117-41028-l4v4bs install

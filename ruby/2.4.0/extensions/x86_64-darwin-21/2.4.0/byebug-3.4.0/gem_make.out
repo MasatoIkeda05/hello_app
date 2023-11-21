@@ -1,0 +1,984 @@
+current directory: /Users/i.masato/rails-tutorial/workspace/hello_app/ruby/2.4.0/gems/byebug-3.4.0/ext/byebug
+/Users/i.masato/.rbenv/versions/2.4.7/bin/ruby -I /Users/i.masato/.rbenv/versions/2.4.7/lib/ruby/site_ruby/2.4.0 extconf.rb
+creating Makefile
+
+current directory: /Users/i.masato/rails-tutorial/workspace/hello_app/ruby/2.4.0/gems/byebug-3.4.0/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20231117-41028-1gbvk2x sitelibdir\=./.gem.20231117-41028-1gbvk2x clean
+
+current directory: /Users/i.masato/rails-tutorial/workspace/hello_app/ruby/2.4.0/gems/byebug-3.4.0/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20231117-41028-1gbvk2x sitelibdir\=./.gem.20231117-41028-1gbvk2x
+compiling breakpoint.c
+breakpoint.c:103:21: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+      return ID2SYM(rb_intern("greater_or_equal"));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+breakpoint.c:103:21: note: '{' token is here
+      return ID2SYM(rb_intern("greater_or_equal"));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+breakpoint.c:103:21: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+      return ID2SYM(rb_intern("greater_or_equal"));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+breakpoint.c:103:21: note: ')' token is here
+      return ID2SYM(rb_intern("greater_or_equal"));
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+breakpoint.c:105:21: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+      return ID2SYM(rb_intern("equal"));
+                    ^~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+breakpoint.c:105:21: note: '{' token is here
+      return ID2SYM(rb_intern("equal"));
+                    ^~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+breakpoint.c:105:21: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+      return ID2SYM(rb_intern("equal"));
+                    ^~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+breakpoint.c:105:21: note: ')' token is here
+      return ID2SYM(rb_intern("equal"));
+                    ^~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+breakpoint.c:107:21: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+      return ID2SYM(rb_intern("modulo"));
+                    ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+breakpoint.c:107:21: note: '{' token is here
+      return ID2SYM(rb_intern("modulo"));
+                    ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+breakpoint.c:107:21: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+      return ID2SYM(rb_intern("modulo"));
+                    ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+breakpoint.c:107:21: note: ')' token is here
+      return ID2SYM(rb_intern("modulo"));
+                    ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+breakpoint.c:133:6: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  if(rb_intern("greater_or_equal") == id_value || rb_intern("ge") == id_value)
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+breakpoint.c:133:6: note: '{' token is here
+  if(rb_intern("greater_or_equal") == id_value || rb_intern("ge") == id_value)
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+breakpoint.c:133:6: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  if(rb_intern("greater_or_equal") == id_value || rb_intern("ge") == id_value)
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+breakpoint.c:133:6: note: ')' token is here
+  if(rb_intern("greater_or_equal") == id_value || rb_intern("ge") == id_value)
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+breakpoint.c:133:51: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  if(rb_intern("greater_or_equal") == id_value || rb_intern("ge") == id_value)
+                                                  ^~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+breakpoint.c:133:51: note: '{' token is here
+  if(rb_intern("greater_or_equal") == id_value || rb_intern("ge") == id_value)
+                                                  ^~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+breakpoint.c:133:51: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  if(rb_intern("greater_or_equal") == id_value || rb_intern("ge") == id_value)
+                                                  ^~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+breakpoint.c:133:51: note: ')' token is here
+  if(rb_intern("greater_or_equal") == id_value || rb_intern("ge") == id_value)
+                                                  ^~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+breakpoint.c:135:11: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  else if(rb_intern("equal") == id_value || rb_intern("eq") == id_value)
+          ^~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+breakpoint.c:135:11: note: '{' token is here
+  else if(rb_intern("equal") == id_value || rb_intern("eq") == id_value)
+          ^~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+breakpoint.c:135:11: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  else if(rb_intern("equal") == id_value || rb_intern("eq") == id_value)
+          ^~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+breakpoint.c:135:11: note: ')' token is here
+  else if(rb_intern("equal") == id_value || rb_intern("eq") == id_value)
+          ^~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+breakpoint.c:135:45: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  else if(rb_intern("equal") == id_value || rb_intern("eq") == id_value)
+                                            ^~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+breakpoint.c:135:45: note: '{' token is here
+  else if(rb_intern("equal") == id_value || rb_intern("eq") == id_value)
+                                            ^~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+breakpoint.c:135:45: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  else if(rb_intern("equal") == id_value || rb_intern("eq") == id_value)
+                                            ^~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+breakpoint.c:135:45: note: ')' token is here
+  else if(rb_intern("equal") == id_value || rb_intern("eq") == id_value)
+                                            ^~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+breakpoint.c:137:11: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  else if(rb_intern("modulo") == id_value || rb_intern("mod") == id_value)
+          ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+breakpoint.c:137:11: note: '{' token is here
+  else if(rb_intern("modulo") == id_value || rb_intern("mod") == id_value)
+          ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+breakpoint.c:137:11: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  else if(rb_intern("modulo") == id_value || rb_intern("mod") == id_value)
+          ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+breakpoint.c:137:11: note: ')' token is here
+  else if(rb_intern("modulo") == id_value || rb_intern("mod") == id_value)
+          ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+breakpoint.c:137:46: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  else if(rb_intern("modulo") == id_value || rb_intern("mod") == id_value)
+                                             ^~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+breakpoint.c:137:46: note: '{' token is here
+  else if(rb_intern("modulo") == id_value || rb_intern("mod") == id_value)
+                                             ^~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+breakpoint.c:137:46: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  else if(rb_intern("modulo") == id_value || rb_intern("mod") == id_value)
+                                             ^~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+breakpoint.c:137:46: note: ')' token is here
+  else if(rb_intern("modulo") == id_value || rb_intern("mod") == id_value)
+                                             ^~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+breakpoint.c:503:12: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  idEval = rb_intern("eval");
+           ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+breakpoint.c:503:12: note: '{' token is here
+  idEval = rb_intern("eval");
+           ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+breakpoint.c:503:12: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  idEval = rb_intern("eval");
+           ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+breakpoint.c:503:12: note: ')' token is here
+  idEval = rb_intern("eval");
+           ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+20 warnings generated.
+compiling byebug.c
+byebug.c:136:35: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return call_at(context_obj, dc, rb_intern("at_line"), 2, file, line);
+                                  ^~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+byebug.c:136:35: note: '{' token is here
+  return call_at(context_obj, dc, rb_intern("at_line"), 2, file, line);
+                                  ^~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+byebug.c:136:35: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return call_at(context_obj, dc, rb_intern("at_line"), 2, file, line);
+                                  ^~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+byebug.c:136:35: note: ')' token is here
+  return call_at(context_obj, dc, rb_intern("at_line"), 2, file, line);
+                                  ^~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+byebug.c:142:35: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return call_at(context_obj, dc, rb_intern("at_tracing"), 2, file, line);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+byebug.c:142:35: note: '{' token is here
+  return call_at(context_obj, dc, rb_intern("at_tracing"), 2, file, line);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+byebug.c:142:35: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return call_at(context_obj, dc, rb_intern("at_tracing"), 2, file, line);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+byebug.c:142:35: note: ')' token is here
+  return call_at(context_obj, dc, rb_intern("at_tracing"), 2, file, line);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+byebug.c:149:35: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return call_at(context_obj, dc, rb_intern("at_breakpoint"), 1, breakpoint, 0);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+byebug.c:149:35: note: '{' token is here
+  return call_at(context_obj, dc, rb_intern("at_breakpoint"), 1, breakpoint, 0);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+byebug.c:149:35: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return call_at(context_obj, dc, rb_intern("at_breakpoint"), 1, breakpoint, 0);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+byebug.c:149:35: note: ')' token is here
+  return call_at(context_obj, dc, rb_intern("at_breakpoint"), 1, breakpoint, 0);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+byebug.c:156:35: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return call_at(context_obj, dc, rb_intern("at_catchpoint"), 1, exp, 0);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+byebug.c:156:35: note: '{' token is here
+  return call_at(context_obj, dc, rb_intern("at_catchpoint"), 1, exp, 0);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+byebug.c:156:35: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return call_at(context_obj, dc, rb_intern("at_catchpoint"), 1, exp, 0);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+byebug.c:156:35: note: ')' token is here
+  return call_at(context_obj, dc, rb_intern("at_catchpoint"), 1, exp, 0);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+byebug.c:163:35: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return call_at(context_obj, dc, rb_intern("at_return"), 2, file, line);
+                                  ^~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+byebug.c:163:35: note: '{' token is here
+  return call_at(context_obj, dc, rb_intern("at_return"), 2, file, line);
+                                  ^~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+byebug.c:163:35: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return call_at(context_obj, dc, rb_intern("at_return"), 2, file, line);
+                                  ^~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+byebug.c:163:35: note: ')' token is here
+  return call_at(context_obj, dc, rb_intern("at_return"), 2, file, line);
+                                  ^~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+byebug.c:217:29: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+        rb_funcall(mByebug, rb_intern("puts"), 1,
+                            ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+byebug.c:217:29: note: '{' token is here
+        rb_funcall(mByebug, rb_intern("puts"), 1,
+                            ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+byebug.c:217:29: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+        rb_funcall(mByebug, rb_intern("puts"), 1,
+                            ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+byebug.c:217:29: note: ')' token is here
+        rb_funcall(mByebug, rb_intern("puts"), 1,
+                            ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+byebug.c:339:35: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+    rb_ivar_set(raised_exception, rb_intern("@__bb_file")   , path);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+byebug.c:339:35: note: '{' token is here
+    rb_ivar_set(raised_exception, rb_intern("@__bb_file")   , path);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+byebug.c:339:35: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+    rb_ivar_set(raised_exception, rb_intern("@__bb_file")   , path);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+byebug.c:339:35: note: ')' token is here
+    rb_ivar_set(raised_exception, rb_intern("@__bb_file")   , path);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+byebug.c:340:35: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+    rb_ivar_set(raised_exception, rb_intern("@__bb_line")   , lineno);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+byebug.c:340:35: note: '{' token is here
+    rb_ivar_set(raised_exception, rb_intern("@__bb_line")   , lineno);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+byebug.c:340:35: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+    rb_ivar_set(raised_exception, rb_intern("@__bb_line")   , lineno);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+byebug.c:340:35: note: ')' token is here
+    rb_ivar_set(raised_exception, rb_intern("@__bb_line")   , lineno);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+byebug.c:341:35: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+    rb_ivar_set(raised_exception, rb_intern("@__bb_binding"), binding);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+byebug.c:341:35: note: '{' token is here
+    rb_ivar_set(raised_exception, rb_intern("@__bb_binding"), binding);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+byebug.c:341:35: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+    rb_ivar_set(raised_exception, rb_intern("@__bb_binding"), binding);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+byebug.c:341:35: note: ')' token is here
+    rb_ivar_set(raised_exception, rb_intern("@__bb_binding"), binding);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+byebug.c:342:35: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+    rb_ivar_set(raised_exception, rb_intern("@__bb_context"), post_mortem_context);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+byebug.c:342:35: note: '{' token is here
+    rb_ivar_set(raised_exception, rb_intern("@__bb_context"), post_mortem_context);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+byebug.c:342:35: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+    rb_ivar_set(raised_exception, rb_intern("@__bb_context"), post_mortem_context);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+byebug.c:342:35: note: ')' token is here
+    rb_ivar_set(raised_exception, rb_intern("@__bb_context"), post_mortem_context);
+                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+byebug.c:450:33: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  list = rb_funcall(rb_cThread, rb_intern("list"), 0);
+                                ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+byebug.c:450:33: note: '{' token is here
+  list = rb_funcall(rb_cThread, rb_intern("list"), 0);
+                                ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+byebug.c:450:33: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  list = rb_funcall(rb_cThread, rb_intern("list"), 0);
+                                ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+byebug.c:450:33: note: ')' token is here
+  list = rb_funcall(rb_cThread, rb_intern("list"), 0);
+                                ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+22 warnings generated.
+compiling context.c
+context.c:43:39: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return FIX2INT(rb_funcall(cContext, rb_intern("stack_size"), 0));
+                                      ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:686:32: note: expanded from macro 'FIX2INT'
+#define FIX2INT(x)  RB_FIX2INT(x)
+                               ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:662:48: note: expanded from macro 'RB_FIX2INT'
+#define RB_FIX2INT(x) ((int)rb_fix2int((VALUE)(x)))
+                                               ^
+context.c:43:39: note: '{' token is here
+  return FIX2INT(rb_funcall(cContext, rb_intern("stack_size"), 0));
+                                      ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:686:32: note: expanded from macro 'FIX2INT'
+#define FIX2INT(x)  RB_FIX2INT(x)
+                               ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:662:48: note: expanded from macro 'RB_FIX2INT'
+#define RB_FIX2INT(x) ((int)rb_fix2int((VALUE)(x)))
+                                               ^
+context.c:43:39: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return FIX2INT(rb_funcall(cContext, rb_intern("stack_size"), 0));
+                                      ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:686:32: note: expanded from macro 'FIX2INT'
+#define FIX2INT(x)  RB_FIX2INT(x)
+                               ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:662:48: note: expanded from macro 'RB_FIX2INT'
+#define RB_FIX2INT(x) ((int)rb_fix2int((VALUE)(x)))
+                                               ^
+context.c:43:39: note: ')' token is here
+  return FIX2INT(rb_funcall(cContext, rb_intern("stack_size"), 0));
+                                      ^~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:686:32: note: expanded from macro 'FIX2INT'
+#define FIX2INT(x)  RB_FIX2INT(x)
+                               ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:662:48: note: expanded from macro 'RB_FIX2INT'
+#define RB_FIX2INT(x) ((int)rb_fix2int((VALUE)(x)))
+                                               ^
+context.c:238:26: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return rb_funcall(loc, rb_intern("path"), 0);
+                         ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+context.c:238:26: note: '{' token is here
+  return rb_funcall(loc, rb_intern("path"), 0);
+                         ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+context.c:238:26: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return rb_funcall(loc, rb_intern("path"), 0);
+                         ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+context.c:238:26: note: ')' token is here
+  return rb_funcall(loc, rb_intern("path"), 0);
+                         ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+context.c:256:26: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return rb_funcall(loc, rb_intern("lineno"), 0);
+                         ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+context.c:256:26: note: '{' token is here
+  return rb_funcall(loc, rb_intern("lineno"), 0);
+                         ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+context.c:256:26: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return rb_funcall(loc, rb_intern("lineno"), 0);
+                         ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+context.c:256:26: note: ')' token is here
+  return rb_funcall(loc, rb_intern("lineno"), 0);
+                         ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+context.c:274:40: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return rb_str_intern(rb_funcall(loc, rb_intern("label"), 0));
+                                       ^~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+context.c:274:40: note: '{' token is here
+  return rb_str_intern(rb_funcall(loc, rb_intern("label"), 0));
+                                       ^~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+context.c:274:40: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return rb_str_intern(rb_funcall(loc, rb_intern("label"), 0));
+                                       ^~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+context.c:274:40: note: ')' token is here
+  return rb_str_intern(rb_funcall(loc, rb_intern("label"), 0));
+                                       ^~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+context.c:381:17: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return ID2SYM(rb_intern(symbol));
+                ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+context.c:381:17: note: '{' token is here
+  return ID2SYM(rb_intern(symbol));
+                ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+context.c:381:17: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return ID2SYM(rb_intern(symbol));
+                ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+context.c:381:17: note: ')' token is here
+  return ID2SYM(rb_intern(symbol));
+                ^~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:383:29: note: expanded from macro 'ID2SYM'
+#define ID2SYM(x) RB_ID2SYM(x)
+                            ^
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:378:33: note: expanded from macro 'RB_ID2SYM'
+#define RB_ID2SYM(x) (rb_id2sym(x))
+                                ^
+context.c:491:46: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  VALUE status = rb_funcall(context->thread, rb_intern("status"), 0);
+                                             ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+context.c:491:46: note: '{' token is here
+  VALUE status = rb_funcall(context->thread, rb_intern("status"), 0);
+                                             ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+context.c:491:46: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  VALUE status = rb_funcall(context->thread, rb_intern("status"), 0);
+                                             ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+context.c:491:46: note: ')' token is here
+  VALUE status = rb_funcall(context->thread, rb_intern("status"), 0);
+                                             ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+12 warnings generated.
+compiling locker.c
+compiling threads.c
+threads.c:56:29: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return rb_funcall(thread, rb_intern("alive?"), 0) == Qtrue;
+                            ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:23: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                      ^
+threads.c:56:29: note: '{' token is here
+  return rb_funcall(thread, rb_intern("alive?"), 0) == Qtrue;
+                            ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1738:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    {                                                   \
+    ^
+threads.c:56:29: warning: '}' and ')' tokens terminating statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
+  return rb_funcall(thread, rb_intern("alive?"), 0) == Qtrue;
+                            ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:24: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1743:5: note: expanded from macro 'RUBY_CONST_ID_CACHE'
+    }
+    ^
+threads.c:56:29: note: ')' token is here
+  return rb_funcall(thread, rb_intern("alive?"), 0) == Qtrue;
+                            ^~~~~~~~~~~~~~~~~~~
+/Users/i.masato/.rbenv/versions/2.4.7/include/ruby-2.4.0/ruby/ruby.h:1753:56: note: expanded from macro 'rb_intern'
+        __extension__ (RUBY_CONST_ID_CACHE((ID), (str))) : \
+                                                       ^
+2 warnings generated.
+linking shared-object byebug/byebug.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/i.masato/rails-tutorial/workspace/hello_app/ruby/2.4.0/gems/byebug-3.4.0/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20231117-41028-1gbvk2x sitelibdir\=./.gem.20231117-41028-1gbvk2x install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20231117-41028-1gbvk2x/byebug
