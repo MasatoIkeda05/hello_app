@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.4.7'
 gem 'rails',                '4.2.11.3'
 gem 'sass-rails',           '5.0.2'
 gem 'uglifier',             '2.5.3'
@@ -9,7 +10,7 @@ gem 'turbolinks',           '2.3.0'
 gem 'jbuilder',             '2.2.3'
 gem 'sdoc',                 '0.4.0', group: :doc
 gem 'loofah',               '2.4.0'
-
+gem 'nokogiri',             '1.10.4'
 
 
 group :development, :test do

@@ -168,6 +168,7 @@ DEPENDENCIES
   jbuilder (= 2.2.3)
   jquery-rails (= 4.0.3)
   loofah (= 2.4.0)
+  nokogiri (= 1.10.4)
   pg (= 0.17.1)
   rails (= 4.2.11.3)
   rails_12factor (= 0.0.2)
@@ -178,6 +179,9 @@ DEPENDENCIES
   turbolinks (= 2.3.0)
   uglifier (= 2.5.3)
   web-console (= 2.0.0.beta3)
+
+RUBY VERSION
+   ruby 2.4.7p357
 
 BUNDLED WITH
    1.17.3
